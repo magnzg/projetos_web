@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    font-family: "Playfair Display", serif;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    background-color: #faf6f0;
+}
+
+
+header {
+    background: #000;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.faixa {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+.pacote {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.depoimentos {
+    background-color: #2a455f;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.depoiment {
+    color: white
+}
+
+.depoimentos h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.depoimento {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: #faf6f0;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.depoimento p {
+    font-style: italic;
+}
+
+.depoimento span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.introducao {
+    text-align: center;
+    font-size: medium;
+}
+
+.texto {
+    font-size: larger;
+}
+
+.text {
+    font-size: xx-large;
+}
+.contato-imagem-container {
+    display: flex; /* Usando Flexbox para alinhar os elementos horizontalmente */
+    align-items: flex-start; /* Alinha os itens ao topo */
+    gap: 20px; /* Espaçamento entre o contato e a imagem */
+    padding: 20px;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a linha de baixo em telas menores */
+}
+
+.contato {
+    flex: 1; /* Flexível para ocupar espaço */
+    min-width: 300px; /* Tamanho mínimo da seção de contato */
+}
+
+.imagem-contato {
+    flex: 1; /* Flexível para ocupar espaço */
+    min-width: 300px; /* Tamanho mínimo da imagem */
+}
+
+.imagem-contato img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas, opcional */
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column; /* Coloca os elementos do formulário um abaixo do outro */
+}
+
+.contato label {
+    margin-bottom: 5px;
+}
+
+.contato input,
+.contato textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contato button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contato button:hover {
+    background-color: #45a049;
+}
